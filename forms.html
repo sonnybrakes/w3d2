@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Recap</title>
+  </head>
+  <body>
+    <form action="/guitars" method="post">
+      <label for="guitar-model">model:</label>
+      <input type="text" name="model" id="guitar-model" placeholder="e.g. strat">
+
+      <label for="guitar-year">year:</label>
+      <input type="number" name="year" id="guitar-year" placeholder="e.g. 1984">
+
+      <input type="hidden" value="1234" name="user_id">
+      <!-- <input type="submit"> -->
+      <button type="submit">strum</button>
+    </form>
+  </body>
+</html>
